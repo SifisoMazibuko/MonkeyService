@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{6981E511-D59B-4CA7-89E1-B8A5E5353CE9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonkeyService Status">
+    <Files>
+      <File FileName="MonkeyService/Monkey.cs" Line="1" Column="1" />
+      <File FileName="MonkeyService/WebService/Service.cs" Line="4" Column="23" />
+      <File FileName="MonkeyService/MonkeyServicePage.xaml.cs" Line="38" Column="1" />
+      <File FileName="iOS/Service/MonkeyWebService.cs" Line="5" Column="32" />
+      <File FileName="MonkeyService/IMonkeyService.cs" Line="10" Column="2" />
+      <File FileName="MonkeyService Status" />
+      <File FileName="MonkeyService Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MonkeyService.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C045B944-08CB-4B7C-AE90-0F50B5D459D7" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
