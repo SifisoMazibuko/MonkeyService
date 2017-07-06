@@ -11,7 +11,7 @@ namespace MonkeyService.iOS.Service
     public class MonkeyWebService : IMonkeyService
     {
         //Json to Consume data from
-        private const string weburi = "https://raw.githubusercontent.com/jamesmontemagno/MonkeysApp-AppIndexing/master/MonkeysApp/monkeydata.json";
+        //private const string weburi = "https://raw.githubusercontent.com/jamesmontemagno/MonkeysApp-AppIndexing/master/MonkeysApp/monkeydata.json";
         public MonkeyWebService()
         {
             
@@ -19,7 +19,7 @@ namespace MonkeyService.iOS.Service
 
         public List<Monkey> GetService(string weburi)
         {
-			WebClient client = new WebClient();
+			var client = new WebClient();
 
 			var response = client.DownloadData(weburi);
 
@@ -27,6 +27,13 @@ namespace MonkeyService.iOS.Service
 			var monkey = JsonConvert.DeserializeObject<List<Monkey>>(json);
 
             return monkey;
+
+            /*
+			var web = new HttpClient();
+
+			var json = await web.GetStringAsync(weburi);
+			var x = JsonConvert.DeserializeObject<List<Monkey>>(json);
+			return x;*/
         }
 
     }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net;
+using System.Net.Http;
 using MonkeyService.Droid.Service;
 using Newtonsoft.Json;
 using Xamarin.Forms;
@@ -19,8 +20,15 @@ namespace MonkeyService.Droid.Service
 
         public List<Monkey> GetService(string weburi)
         {
-            WebClient client = new WebClient();
+            
+            /*var web = new HttpClient();
 
+            var json = await web.GetStringAsync(weburi);
+            var x = JsonConvert.DeserializeObject<List<Monkey>>(json);
+            return x;*/
+
+
+            WebClient client = new WebClient();
             var response = client.DownloadData(weburi);
 
             var json = System.Text.Encoding.UTF8.GetString(response);

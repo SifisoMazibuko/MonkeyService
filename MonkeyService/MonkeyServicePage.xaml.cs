@@ -18,9 +18,32 @@ namespace MonkeyService
             InitializeComponent();
             //Calling the List Method For Initial Page
             GetList();
+
+
         }
         void GetList()
         {
+            this.Title = "List of Monkeys";
+            var width = 220;
+            var height = 50;
+            var label = new Label
+            {
+                Text = "List of Monkeys!",
+                BackgroundColor = Color.White,
+                FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
+                VerticalOptions = LayoutOptions.Center
+            };
+
+            var button = new Button
+            {
+                Text = "Remove Monkey",
+                BackgroundColor = Color.Lime,
+                HeightRequest = height,
+                WidthRequest = width,
+            };
+
+
+
             _list = new ListView();
 
             _list.ItemTemplate = new DataTemplate(typeof(ImageCell));
@@ -35,7 +58,17 @@ namespace MonkeyService
 
 
             //Adding content to the page
-            Content = _list;
+            Content = new StackLayout
+            {
+                //
+                Padding = 20,
+                Children = {
+                    label,
+                    _list,
+                    button
+                }
+
+            };
         }
 
     }

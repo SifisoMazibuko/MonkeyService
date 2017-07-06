@@ -1,12 +1,12 @@
-﻿<Properties StartupConfiguration="{640209A1-5656-4CA5-9CC9-F2EE05C48E5B}|Default">
+﻿<Properties StartupConfiguration="{6981E511-D59B-4CA7-89E1-B8A5E5353CE9}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="MonkeyService Status">
     <Files>
-      <File FileName="MonkeyService/Monkey.cs" Line="1" Column="1" />
-      <File FileName="MonkeyService/MonkeyServicePage.xaml.cs" Line="7" Column="1" />
-      <File FileName="iOS/Service/MonkeyWebService.cs" Line="15" Column="9" />
-      <File FileName="Droid/Service/MonkeyWebService.cs" Line="29" Column="27" />
-      <File FileName="Droid/MainActivity.cs" Line="10" Column="1" />
-      <File FileName="Droid/Resources/values/styles.xml" Line="8" Column="14" />
+      <File FileName="MonkeyService/Monkey.cs" Line="2" Column="14" />
+      <File FileName="MonkeyService/MonkeyServicePage.xaml.cs" Line="43" Column="15" />
+      <File FileName="iOS/Service/MonkeyWebService.cs" Line="19" Column="9" />
+      <File FileName="Droid/Service/MonkeyWebService.cs" Line="33" Column="13" />
+      <File FileName="MonkeyService/IMonkeyService.cs" Line="8" Column="32" />
+      <File FileName="MonkeyService/App.xaml.cs" Line="29" Column="29" />
       <File FileName="MonkeyService Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
@@ -16,6 +16,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MonkeyService.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.MonkeyService.Droid PreferredExecutionTarget="Android.TCY9KA9660803938" />
   <MultiItemStartupConfigurations />
 </Properties>
