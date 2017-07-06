@@ -8,9 +8,9 @@ namespace MonkeyService
 {
     public partial class MonkeyServicePage : ContentPage
     {
-		//Json to Consume data from
-		private const string weburi = "https://raw.githubusercontent.com/jamesmontemagno/MonkeysApp-AppIndexing/master/MonkeysApp/monkeydata.json";
-
+        //Json to Consume data from
+       // private const string weburi = "https://raw.githubusercontent.com/jamesmontemagno/MonkeysApp-AppIndexing/master/MonkeysApp/monkeydata.json";
+        private const string weburi = "https://api.myjson.com/bins/1czns7";
 		public ListView _list { get; set; }
 
         public MonkeyServicePage()
@@ -34,16 +34,6 @@ namespace MonkeyService
                 VerticalOptions = LayoutOptions.Center
             };
 
-            var button = new Button
-            {
-                Text = "Remove Monkey",
-                BackgroundColor = Color.Lime,
-                HeightRequest = height,
-                WidthRequest = width,
-            };
-
-
-
             _list = new ListView();
 
             _list.ItemTemplate = new DataTemplate(typeof(ImageCell));
@@ -56,16 +46,49 @@ namespace MonkeyService
             //Listing the data retrieve from the Service
             _list.ItemsSource = DependencyService.Get<IMonkeyService>().GetService(weburi);
 
+            //remove a list history of monkeys
+			var removebutton = new Button
+			{
+				Text = "Remove Monkey",
+				BackgroundColor = Color.LightCoral,
+				HeightRequest = height,
+				WidthRequest = width,
+			};
 
+            //Add back the list of monkeys
+			var Addbutton = new Button
+            {
+				Text = "Add Monkey",
+				BackgroundColor = Color.Lime,
+				HeightRequest = height,
+				WidthRequest = width,
+			};
+
+           
+			//Event buttons for removing and adding 
+			removebutton.Clicked += (sender, e) =>
+			{
+				_list.ItemsSource = string.Empty;
+			};
+			Addbutton.Clicked += (sender, e) =>
+			{
+				_list.ItemsSource = DependencyService.Get<IMonkeyService>().GetService(weburi);
+			};
+			
+
+            var scroll = new ScrollView();
+            Content = scroll;
             //Adding content to the page
             Content = new StackLayout
             {
                 //
                 Padding = 20,
                 Children = {
+                    scroll,
                     label,
                     _list,
-                    button
+                    Addbutton,
+                    removebutton
                 }
 
             };
