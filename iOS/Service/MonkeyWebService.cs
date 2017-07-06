@@ -29,22 +29,5 @@ namespace MonkeyService.iOS.Service
             return monkey;
         }
 
-        /* public void GetService(string weburi)
-         {
-             WebClient client = new WebClient();
-
-             var response = client.DownloadData(weburi);
-
-             var json = System.Text.Encoding.UTF8.GetString(response);
-             var monkey = JsonConvert.DeserializeObject<List<Monkey>>(json);
-
-             Monkeys = monkey;
-         }
-
-         public List<Monkey> Monkeys { get; set; }*/
-
-
-
-
     }
 }
