@@ -66,17 +66,30 @@ namespace MonkeyService
 
            
 			//Event buttons for removing and adding 
-			removebutton.Clicked += (sender, e) =>
+            removebutton.Clicked += async delegate 
 			{
+                await DisplayAlert("Warning", "Are you sure?", "Yes",cancel: "Cancel");
 				_list.ItemsSource = string.Empty;
+
 			};
 			Addbutton.Clicked += (sender, e) =>
 			{
 				_list.ItemsSource = DependencyService.Get<IMonkeyService>().GetService(weburi);
 			};
-			
 
-            var scroll = new ScrollView();
+            var stack = new StackLayout();
+            var scroll = new ScrollView{
+                Content = new StackLayout{
+                    Padding = 20,
+                    Children = {
+                        label,
+                        _list,
+                        Addbutton,
+                        removebutton
+                    }
+                }
+            };
+
             Content = scroll;
             //Adding content to the page
             Content = new StackLayout
@@ -84,7 +97,6 @@ namespace MonkeyService
                 //
                 Padding = 20,
                 Children = {
-                    scroll,
                     label,
                     _list,
                     Addbutton,
@@ -92,6 +104,8 @@ namespace MonkeyService
                 }
 
             };
+
+
         }
 
     }

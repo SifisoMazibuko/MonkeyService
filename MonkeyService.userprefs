@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{6981E511-D59B-4CA7-89E1-B8A5E5353CE9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MonkeyService Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonkeyService/MonkeyServicePage.xaml.cs">
     <Files>
       <File FileName="MonkeyService/Monkey.cs" Line="2" Column="14" />
-      <File FileName="MonkeyService/MonkeyServicePage.xaml.cs" Line="43" Column="15" />
-      <File FileName="iOS/Service/MonkeyWebService.cs" Line="19" Column="9" />
-      <File FileName="Droid/Service/MonkeyWebService.cs" Line="33" Column="13" />
+      <File FileName="MonkeyService/MonkeyServicePage.xaml.cs" Line="87" Column="35" />
+      <File FileName="iOS/Service/MonkeyWebService.cs" Line="24" Column="1" />
+      <File FileName="Droid/Service/MonkeyWebService.cs" Line="15" Column="11" />
       <File FileName="MonkeyService/IMonkeyService.cs" Line="8" Column="32" />
       <File FileName="MonkeyService/App.xaml.cs" Line="29" Column="29" />
       <File FileName="MonkeyService Status" />
