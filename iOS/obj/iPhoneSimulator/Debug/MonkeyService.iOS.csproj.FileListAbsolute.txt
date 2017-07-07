@@ -50,11 +50,11 @@
 /Users/sifisomazibuko/Projects/MonkeyService/iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/sifisomazibuko/Projects/MonkeyService/iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/sifisomazibuko/Projects/MonkeyService/iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
-/Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_PartialAppManifest.items
-/Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_BundleResourceWithLogicalName.items
-/Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/
 /Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/MonkeyService.iOS.csprojResolveAssemblyReference.cache
 /Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/MonkeyService.iOS.csproj.CoreCompileInputs.cache
 /Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/MonkeyService.iOS.exe
 /Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/MonkeyService.iOS.pdb
+/Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/optimized/

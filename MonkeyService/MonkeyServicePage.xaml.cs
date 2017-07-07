@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Net;
 using MonkeyService;
 using Xamarin.Forms;
@@ -64,18 +65,58 @@ namespace MonkeyService
 				WidthRequest = width,
 			};
 
+            var Upload = new Button
+            {
+                Text = "Upload"
+            };
            
 			//Event buttons for removing and adding 
             removebutton.Clicked += async delegate 
 			{
-                await DisplayAlert("Warning", "Are you sure?", "Yes",cancel: "Cancel");
-				_list.ItemsSource = string.Empty;
+                var answer = await DisplayAlert("Warning", "Are you sure?", "Yes", "Cancel");
+                if(answer)
+                {
+                    _list.ItemsSource = string.Empty;
+                }
+                /*else{
+                    _list.ItemsSource = DependencyService.Get<IMonkeyService>().GetService(weburi);
+                }*/
+                
+				
 
 			};
 			Addbutton.Clicked += (sender, e) =>
 			{
 				_list.ItemsSource = DependencyService.Get<IMonkeyService>().GetService(weburi);
 			};
+
+            Upload.Clicked += async (sender, e) => {
+
+                Upload.IsEnabled = false;
+                Stream stream = await DependencyService.Get<IPickerImage>().GetImage();
+				if (stream != null)
+				{
+					Image image = new Image
+					{
+						Source = ImageSource.FromStream(() => stream),
+						BackgroundColor = Color.Gray
+					};
+
+					TapGestureRecognizer recognizer = new TapGestureRecognizer();
+					recognizer.Tapped += (sender2, args) =>
+					{
+						//(MainPage as ContentPage).Content = stack;
+						Upload.IsEnabled = true;
+					};
+					image.GestureRecognizers.Add(recognizer);
+
+                    //(App as ContentPage).Content = image;
+				}
+				else
+				{
+					Upload.IsEnabled = true;
+				}
+            };
 
 
             //Adding content to the page
@@ -94,7 +135,8 @@ namespace MonkeyService
                         Content = _list
                     },
 					 Addbutton,
-					removebutton
+					removebutton,
+                    Upload
                 }
 
             };
