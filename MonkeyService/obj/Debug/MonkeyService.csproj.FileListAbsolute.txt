@@ -18,3 +18,4 @@
 /Users/sifisomazibuko/Projects/MonkeyService/MonkeyService/obj/Debug/MonkeyService.MonkeyServicePage.xaml.g.cs
 /Users/sifisomazibuko/Projects/MonkeyService/MonkeyService/obj/Debug/MonkeyService.dll
 /Users/sifisomazibuko/Projects/MonkeyService/MonkeyService/obj/Debug/MonkeyService.pdb
+/Users/sifisomazibuko/Projects/MonkeyService/MonkeyService/obj/Debug/MonkeyService.csprojResolveAssemblyReference.cache

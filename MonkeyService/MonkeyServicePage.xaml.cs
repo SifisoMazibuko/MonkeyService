@@ -77,34 +77,27 @@ namespace MonkeyService
 				_list.ItemsSource = DependencyService.Get<IMonkeyService>().GetService(weburi);
 			};
 
-            var stack = new StackLayout();
-            var scroll = new ScrollView{
-                Content = new StackLayout{
-                    Padding = 20,
-                    Children = {
-                        label,
-                        _list,
-                        Addbutton,
-                        removebutton
-                    }
-                }
-            };
 
-            Content = scroll;
             //Adding content to the page
             Content = new StackLayout
             {
                 //
                 Padding = 20,
                 Children = {
-                    label,
-                    _list,
-                    Addbutton,
-                    removebutton
+                    new Label{
+                        Text = "List Of Random Monkeys",
+                        FontAttributes = FontAttributes.Bold,
+                        FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                        HorizontalOptions = LayoutOptions.Center
+                    },
+                    new ScrollView{
+                        Content = _list
+                    },
+					 Addbutton,
+					removebutton
                 }
 
             };
-
 
         }
 
