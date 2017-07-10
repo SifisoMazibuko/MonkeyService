@@ -54,7 +54,12 @@
 /Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/MonkeyService.iOS.csproj.CoreCompileInputs.cache
 /Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/MonkeyService.iOS.exe
 /Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/MonkeyService.iOS.pdb
-/Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
-/Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
-/Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
-/Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_PartialAppManifest.items
+/Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_BundleResourceWithLogicalName.items
+/Users/sifisomazibuko/Projects/MonkeyService/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/
+/Users/sifisomazibuko/Projects/MonkeyService/iOS/bin/iPhoneSimulator/Debug/Plugin.Media.Abstractions.dll
+/Users/sifisomazibuko/Projects/MonkeyService/iOS/bin/iPhoneSimulator/Debug/Plugin.Media.dll
+/Users/sifisomazibuko/Projects/MonkeyService/iOS/bin/iPhoneSimulator/Debug/Plugin.Media.Abstractions.pdb
+/Users/sifisomazibuko/Projects/MonkeyService/iOS/bin/iPhoneSimulator/Debug/Plugin.Media.Abstractions.xml
+/Users/sifisomazibuko/Projects/MonkeyService/iOS/bin/iPhoneSimulator/Debug/Plugin.Media.xml

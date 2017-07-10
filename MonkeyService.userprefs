@@ -1,16 +1,18 @@
-﻿<Properties StartupConfiguration="{640209A1-5656-4CA5-9CC9-F2EE05C48E5B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MonkeyService Status">
+﻿<Properties StartupConfiguration="{6981E511-D59B-4CA7-89E1-B8A5E5353CE9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonkeyService/MonkeyPage.cs">
     <Files>
-      <File FileName="MonkeyService/Monkey.cs" Line="2" Column="14" />
-      <File FileName="MonkeyService/MonkeyServicePage.xaml.cs" Line="111" Column="47" />
-      <File FileName="iOS/Service/MonkeyWebService.cs" Line="24" Column="1" />
+      <File FileName="MonkeyService/Monkey.cs" Line="32" Column="24" />
+      <File FileName="MonkeyService/MonkeyServicePage.xaml.cs" Line="92" Column="50" />
+      <File FileName="iOS/Service/MonkeyWebService.cs" Line="16" Column="10" />
       <File FileName="Droid/Service/MonkeyWebService.cs" Line="20" Column="9" />
       <File FileName="MonkeyService/IMonkeyService.cs" Line="8" Column="32" />
-      <File FileName="MonkeyService/App.xaml.cs" Line="29" Column="29" />
+      <File FileName="MonkeyService/App.xaml.cs" Line="11" Column="67" />
       <File FileName="Droid/MainActivity.cs" Line="32" Column="89" />
-      <File FileName="MonkeyService/IPickerImage.cs" Line="10" Column="6" />
-      <File FileName="Droid/Service/ImageService.cs" Line="32" Column="13" />
-      <File FileName="MonkeyService Status" />
+      <File FileName="MonkeyService/IPickerImage.cs" Line="7" Column="22" />
+      <File FileName="Droid/Service/ImageService.cs" Line="19" Column="13" />
+      <File FileName="MonkeyService/MonkeyPage.cs" Line="38" Column="8" />
+      <File FileName="iOS/Service/ImageService.cs" Line="12" Column="39" />
+      <File FileName="packages/Xam.Plugin.Media.3.0.1/readme.txt" Line="16" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MonkeyService.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C045B944-08CB-4B7C-AE90-0F50B5D459D7" />

@@ -65,10 +65,6 @@ namespace MonkeyService
 				WidthRequest = width,
 			};
 
-            var Upload = new Button
-            {
-                Text = "Upload"
-            };
            
 			//Event buttons for removing and adding 
             removebutton.Clicked += async delegate 
@@ -90,34 +86,17 @@ namespace MonkeyService
 				_list.ItemsSource = DependencyService.Get<IMonkeyService>().GetService(weburi);
 			};
 
-            Upload.Clicked += async (sender, e) => {
 
-                Upload.IsEnabled = false;
-                Stream stream = await DependencyService.Get<IPickerImage>().GetImage();
-				if (stream != null)
-				{
-					Image image = new Image
-					{
-						Source = ImageSource.FromStream(() => stream),
-						BackgroundColor = Color.Gray
-					};
-
-					TapGestureRecognizer recognizer = new TapGestureRecognizer();
-					recognizer.Tapped += (sender2, args) =>
-					{
-						//(MainPage as ContentPage).Content = stack;
-						Upload.IsEnabled = true;
-					};
-					image.GestureRecognizers.Add(recognizer);
-
-                    //(App as ContentPage).Content = image;
-				}
-				else
-				{
-					Upload.IsEnabled = true;
-				}
+            var move = new Button { 
+                Text = "Insert monkey",
+                BackgroundColor = Color.AliceBlue,
+				HeightRequest = height,
+				WidthRequest = width,
             };
 
+            move.Clicked += (sender, e) => {
+                Navigation.PushAsync(new MonkeyPage()); // PushAsync(new NavigationPage(new MonkeyPage()));
+            };
 
             //Adding content to the page
             Content = new StackLayout
@@ -134,9 +113,10 @@ namespace MonkeyService
                     new ScrollView{
                         Content = _list
                     },
-					 Addbutton,
+					
+                    Addbutton,
 					removebutton,
-                    Upload
+                    move
                 }
 
             };

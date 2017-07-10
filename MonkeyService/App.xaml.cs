@@ -8,7 +8,7 @@ namespace MonkeyService
         {
             InitializeComponent();
 
-            MainPage = new MonkeyServicePage();
+            MainPage = new NavigationPage(new MonkeyServicePage());
         }
 
         protected override void OnStart()

@@ -30,6 +30,10 @@
 	-r \
 	/Users/sifisomazibuko/Projects/MonkeyService/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll \
 	-r \
+	/Users/sifisomazibuko/Projects/MonkeyService/packages/Xam.Plugin.Media.3.0.1/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll \
+	-r \
+	/Users/sifisomazibuko/Projects/MonkeyService/packages/Xam.Plugin.Media.3.0.1/lib/Xamarin.iOS10/Plugin.Media.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
@@ -319,6 +323,10 @@
 	/Users/sifisomazibuko/Projects/MonkeyService/MonkeyService/bin/Debug/MonkeyService.dll \
 	-r \
 	/Users/sifisomazibuko/Projects/MonkeyService/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll \
+	-r \
+	/Users/sifisomazibuko/Projects/MonkeyService/packages/Xam.Plugin.Media.3.0.1/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll \
+	-r \
+	/Users/sifisomazibuko/Projects/MonkeyService/packages/Xam.Plugin.Media.3.0.1/lib/Xamarin.iOS10/Plugin.Media.dll \
 	-r \
 	/Users/sifisomazibuko/Projects/MonkeyService/packages/Xamarin.Forms.2.3.4.247/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \

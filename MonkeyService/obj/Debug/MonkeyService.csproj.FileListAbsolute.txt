@@ -19,3 +19,9 @@
 /Users/sifisomazibuko/Projects/MonkeyService/MonkeyService/obj/Debug/MonkeyService.dll
 /Users/sifisomazibuko/Projects/MonkeyService/MonkeyService/obj/Debug/MonkeyService.pdb
 /Users/sifisomazibuko/Projects/MonkeyService/MonkeyService/obj/Debug/MonkeyService.csprojResolveAssemblyReference.cache
+/Users/sifisomazibuko/Projects/MonkeyService/MonkeyService/bin/Debug/Plugin.Media.Abstractions.dll
+/Users/sifisomazibuko/Projects/MonkeyService/MonkeyService/bin/Debug/Plugin.Media.dll
+/Users/sifisomazibuko/Projects/MonkeyService/MonkeyService/bin/Debug/Plugin.Media.Abstractions.pdb
+/Users/sifisomazibuko/Projects/MonkeyService/MonkeyService/bin/Debug/Plugin.Media.Abstractions.xml
+/Users/sifisomazibuko/Projects/MonkeyService/MonkeyService/bin/Debug/Plugin.Media.pdb
+/Users/sifisomazibuko/Projects/MonkeyService/MonkeyService/bin/Debug/Plugin.Media.xml
