@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{6981E511-D59B-4CA7-89E1-B8A5E5353CE9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MonkeyService/MonkeyPage.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="MonkeyService/Monkey.cs" Line="32" Column="24" />
       <File FileName="MonkeyService/MonkeyServicePage.xaml.cs" Line="92" Column="50" />
@@ -16,7 +16,7 @@
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MonkeyService.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C045B944-08CB-4B7C-AE90-0F50B5D459D7" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
